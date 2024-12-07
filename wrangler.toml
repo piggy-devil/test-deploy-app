@@ -80,8 +80,7 @@ pages_build_output_dir = ".vercel/output/static"
 ######## PRODUCTION environment config ########
 
 [env.production.vars]
-
-API_KEY = process.env.API_KEY
+API_KEY = "abc123"
 
 # [[env.production.kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
